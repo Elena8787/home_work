@@ -1,0 +1,86 @@
+            html {
+                font-size: 15px;
+                /*px значит пиксели:базовый шрифт будет 10 пикселей в высоту*/
+            }
+            
+            h1 {
+                margin: 0;
+                /*пространство*/
+                padding: 15px 0;
+                /*пространство*/
+                color: lightslategrey;
+                text-shadow: 3px 3px 1px black;
+                /*тень на тексте 1)по горизонтали 2)по вертикали 3)радиус размытия*/
+            }
+            
+            p,
+            li {
+                font-size: 13px;
+                line-height: 1;
+                letter-spacing: 1px;
+            }
+            
+            html {
+                background-color: aliceblue;
+            }
+            /*меняет цвет страницы*/
+            
+            body {
+                margin: 0 auto;
+            }
+            /*отступы в тексте*/
+            
+            body {
+                padding: 0 30px 30px 30px;
+                /*пространство вокруг контента*/
+            }
+            
+            html {
+                font-family: sans-serif;
+            }
+            
+            img {
+                border-radius: 10px;
+                width: 500px;
+                align-self: flex-end;
+                background-image: url("~/Documents/home_work/img/1.jpg");
+            }
+            
+            .hero_content {
+                padding: 102px 80px;
+                padding-bottom: 88px;
+                color: var(--color-white);
+            }
+            
+            table {
+                border-collapse: collapse;
+                border: 4px solid rgb(600, 600, 600, 600);
+                letter-spacing: 1px;
+                font-size: 0.5rem;
+                table-layout: fixed;
+                width: 100%;
+                border: 3px solid purple;
+            }
+            
+            td,
+            th {
+                border: 1px solid rgb(190, 190, 190, 190);
+                padding: 10px 10px;
+            }
+            
+            td {
+                text-align: center;
+            }
+            
+            caption {
+                padding: 10px;
+            }
+            
+            figcaption {
+                border: 1px solid beige;
+                background-color: lightgray;
+            }
+            
+            div {
+                font-size: 20px;
+            }
